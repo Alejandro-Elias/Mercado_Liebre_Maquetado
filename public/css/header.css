@@ -1,0 +1,60 @@
+.header {
+    background-color: var(--amarillo);
+}
+
+.header img {
+    width: 40%;
+    margin: 30px 0pc 10px 30px;
+}
+
+.header__form {
+    margin-left: 25px;
+}
+
+.header__form input {
+    width: 55%;
+    font-size: var(--descripciones);
+}
+
+#lupa {
+    margin-left: 25px;
+    background-color: var(--gris_claro);
+    padding: 2px 2px 4px 2px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.header__p {
+    text-align: center;
+    margin: 15px 0px;
+    font-size: var(--descripciones);
+}
+
+.header_nav_ul li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.header_nav_ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#crea-ingresa-compras {
+    margin-top: 20px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.burger-menu i {
+    background-color: var(--celeste);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: var(--titulares);
+}
