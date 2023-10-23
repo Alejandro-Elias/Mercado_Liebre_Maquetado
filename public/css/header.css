@@ -17,9 +17,9 @@
 }
 
 #lupa {
-    margin-left: 25px;
+    margin-left: 3px;
     background-color: var(--gris_claro);
-    padding: 2px 2px 4px 2px;
+    padding: 3px;
     border: 1px solid gray;
     border-radius: 3px;
 }
@@ -30,6 +30,10 @@
     font-size: var(--descripciones);
 }
 
+.header__nav {
+    display: none;
+}
+
 .header_nav_ul li {
     list-style-type: none;
     margin-left: -40px;
@@ -38,10 +42,6 @@
 .header_nav_ul li a {
     text-decoration: none;
     color: black;
-}
-
-#crea-ingresa-compras {
-    margin-top: 20px;
 }
 
 .burger-menu {
@@ -57,4 +57,30 @@
     border-radius: 5px;
     color: white;
     font-size: var(--titulares);
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+    
+    .header__nav {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+/* desktop */
+
+@media (min-width: 1280px) {
+
+    .header__nav {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
 }

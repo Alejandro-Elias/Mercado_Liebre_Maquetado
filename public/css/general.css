@@ -13,8 +13,22 @@
     --descripciones: 16px;
 }
 
+/* mobile */
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+    
+}
+
+/* desktop */
+
+@media (min-width: 1280px) {
+
 }
