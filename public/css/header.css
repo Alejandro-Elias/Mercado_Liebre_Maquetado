@@ -2,7 +2,7 @@
     background-color: var(--amarillo);
 }
 
-.header img {
+.logo {
     width: 40%;
     margin: 30px 0pc 10px 30px;
 }
@@ -48,15 +48,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    margin: 40px 0;
+    
 }
 
 .burger-menu i {
     background-color: var(--celeste);
-    padding: 10px;
+    padding: 10px 12px;
     border-radius: 5px;
     color: white;
     font-size: var(--titulares);
+}
+
+.body__main__section__div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.body__main__section__div img {
+    width: 100vw;
 }
 
 /* tablet */

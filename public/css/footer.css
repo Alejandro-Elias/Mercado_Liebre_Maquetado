@@ -1,0 +1,41 @@
+footer {
+    background-color: white;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.footer__div {
+    margin-top: 10px;
+    padding: 55px 55px 0;     
+    color: var(--gris_oscuro); 
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;    
+}
+
+footer section i {
+    color: var(--celeste);
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+footer section h4 {
+    margin: 0;
+}
+
+footer section p{
+    text-align: center;
+    margin: 0;
+    font-size: var(--texto);
+}
+
+.footer__p {
+    padding: 0 30px 30px 30px;
+    font-size: var(--texto);
+    color: var(--gris_oscuro);
+    margin-bottom: 5px;
+}
