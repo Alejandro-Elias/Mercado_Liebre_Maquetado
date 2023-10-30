@@ -16,11 +16,21 @@
 }
 
 .body__main i {
+    display: block;
     color: var(--verde);
-    border: 2px solid;
-    border-color: var(--verde);
+    border: 1px solid var(--verde);
     padding: 5px;
     border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.productos-descripcion {
+    position: relative;
 }
 
 .body__main__section {
@@ -30,7 +40,7 @@
 }
 
 
-section article div {
+.productos-descripcion {
     margin-top: -3px;
     border-top: 1px solid #ebebeb;
     padding: 15px;
@@ -39,6 +49,20 @@ section article div {
 
 .descripcion--articulo {
     display: none;
+}
+
+.precio {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.descuento {
+    text-transform: lowercase;
+    font-size: 14px;
+    color: var(--verde);
+    padding-bottom: 2px;
+    
 }
 
 /* tablet */
