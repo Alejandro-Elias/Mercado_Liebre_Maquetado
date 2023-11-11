@@ -39,3 +39,14 @@ footer section p{
     color: var(--gris_oscuro);
     margin-bottom: 5px;
 }
+
+@media (min-width: 1024px) {
+    .footer__div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__div section {
+        width: 20%;
+    }
+}
