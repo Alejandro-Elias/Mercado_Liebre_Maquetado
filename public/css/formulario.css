@@ -26,6 +26,7 @@
     justify-self: flex-end;
     margin-top: 3px;
 }
+
 .register__main__form__input__check {
     width: 50%;
     margin-bottom: 8px;
@@ -51,6 +52,12 @@
     background-color: black;
     color: white;
 }
+
+.register__main__form__sector__small {
+    color: red;
+}
+
+/* tablet */
 
 @media (min-width: 560px) {
 
@@ -81,6 +88,10 @@
         order: 4;
     }
 
+    .register__main__form__buttons {
+        order: 5;
+    }
+
     .register--contrasenia {
         flex-direction: row;
         flex-wrap: wrap;
@@ -92,11 +103,17 @@
         width: 33%;
     }
 
+    .register--contrasenia--item--login {
+        width: 50%;
+    }
+
     .register__main__form__buttons {
         margin-top: 20px;
         width: 100%;
     }
 }
+
+/* Desktop */
 
 @media (min-width: 1024px) {
 
