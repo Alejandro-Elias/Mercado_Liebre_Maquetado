@@ -1,0 +1,123 @@
+.register__main__form {
+    margin-top: 20px;
+}
+
+.register__main__form h4 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.register__main__form__sector {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.register__main__form__sector__item {
+    padding: 8px 0;
+}
+
+.register__main__form__input {
+    display: flex;
+    justify-self: flex-end;
+    margin-top: 3px;
+}
+.register__main__form__input__check {
+    width: 50%;
+    margin-bottom: 8px;
+}
+.register__main__form__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.register__main__form__buttons button {
+    background-color: white;
+    padding: 5px 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.register__main__form__button {
+    transition: 1000ms;
+}
+
+.register__main__form__button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 560px) {
+
+    .register__main__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    .register__main__form__sector {
+        width: 49%;
+    }
+
+    .register--datos--personales {
+        order: 1;
+    }
+
+    .register--perfil {
+        order: 3;
+    }
+
+    .register--interes {
+        order: 2;
+    }
+
+    .register--foto {
+        order: 4;
+    }
+
+    .register--contrasenia {
+        flex-direction: row;
+        flex-wrap: wrap;
+        order: 5;
+        width: 100%;        
+    }
+
+    .register--contrasenia--item {
+        width: 33%;
+    }
+
+    .register__main__form__buttons {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .body__main {
+        padding: 0 10%;
+    }
+
+    .register__main__form {
+        margin: 20px auto 0;
+    }
+
+    .register__main__form h4 {
+        font-size: 22px;
+    }
+
+    .register__main__form label {
+        font-size: 18px;
+    }
+
+    .register__main__form__input {
+        width: 200px;
+        font-size: 16px;
+    }
+}
