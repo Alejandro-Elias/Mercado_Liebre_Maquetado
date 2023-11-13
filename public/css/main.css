@@ -33,6 +33,7 @@
 
 .productos-descripcion {
     position: relative;
+
 }
 
 .body__main__section {
@@ -43,6 +44,7 @@
 
 .productos {
     margin-bottom: 20px;
+    background-color: white;
 }
 
 
@@ -103,7 +105,7 @@
 
     .descuento {
         font-size: 18px;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .descripcion--articulo {
@@ -146,7 +148,7 @@
     }
 
     .descuento {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 20px;
     }
 

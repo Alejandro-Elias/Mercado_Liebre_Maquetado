@@ -9,8 +9,12 @@
     padding: 25px 25px 10px;
 }
 
-.logo {
-    width: 45%;
+.logo_mas_busqueda__a {
+    width: 100px;
+}
+
+.logo_mas_busqueda img {
+    width: 150%;
 }
 
 .header__form {
@@ -94,8 +98,12 @@
         padding-right: 0;
     }
 
+    .logo_mas_busqueda img {
+        width: 220%;
+    }
+
     .header__form input {
-        width: 230px;
+        width: 200px;
     }
 
     .header__p {
@@ -126,14 +134,14 @@
 
 /* desktop */
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px) {    
 
-    .logo {
-        width: 50%;
+    .logo_mas_busqueda img {
+        width: 320%;
     }
 
     .header__form input {
-        width: 330px;
+        width: 380px;
     }
 
     .header__p {
