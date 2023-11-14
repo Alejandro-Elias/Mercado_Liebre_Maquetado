@@ -29,6 +29,11 @@
     width: 30px;
     height: 30px;
     background-color: white;
+    transition: all 5s;
+}
+
+.body__main i:hover {
+    transform: rotate(-360deg);
 }
 
 .productos-descripcion {
@@ -56,7 +61,8 @@
 }
 
 .descripcion--articulo {
-    display: none;
+    height: 0;  
+    overflow: hidden;
 }
 
 .precio {
@@ -76,6 +82,10 @@
 /* tablet */
 
 @media (min-width: 768px) {
+
+    .productos {
+        height: 480px;
+    }
 
     .body__main h3 {
         text-align: left;
@@ -99,6 +109,14 @@
         padding: 5px 15px;
     }
 
+    .productos-descripcion p {
+        transition: all 3s;
+    }
+
+    .productos-descripcion:hover p{    
+        height: 40px;
+    }
+
     .precio {
         font-size: 20px;
     }
@@ -109,13 +127,17 @@
     }
 
     .descripcion--articulo {
-        display: flex;
+
         color: var(--gris_oscuro);
     }
 
-    .productos {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    .productos {        
         width: 45%;
+        transition: all 2s;
+    }
+
+    .productos:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
 
@@ -123,18 +145,30 @@
 
 @media (min-width: 1280px) {
 
+    .productos {
+        height: 410px;
+    }
+
     .body__main h3 {
         font-size: 30px;
         margin-bottom: 20px;
+    }    
+
+    .productos-descripcion:hover {
+        transition-duration: 3s;
     }
 
-    .descripcion--articulo {
-        display: flex;
+    .productos-descripcion:hover p{        
+        display: block;
     }
 
     .productos {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 22.5%;
+        transition: all 2s;
+    }
+
+    .productos:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .body__main i {
@@ -148,11 +182,11 @@
     }
 
     .descuento {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 20px;
     }
 
     .descripcion--articulo {
-        font-size: 22px;
+        font-size: 16px;
     }
 }
